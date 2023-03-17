@@ -5,7 +5,7 @@
 
 #include "caam-keygen.h"
 #include "caam-keygen_priv.h"
-#include <stdio>
+#include <stdio.h>
 
 int caam_keygen_fd;
 
