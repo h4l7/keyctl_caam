@@ -6,7 +6,7 @@ OBJS = caam-keygen.o
 
 TARGET = caam-keygen
 
-KEYBLOB_LOCATION ?= /keyring/caam/
+KEYBLOB_LOCATION = /keyring/caam/
 
 CFLAGS += -O2
 CFLAGS += -DKEYBLOB_LOCATION="\"$(KEYBLOB_LOCATION)\""
