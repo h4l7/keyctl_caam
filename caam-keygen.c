@@ -51,7 +51,7 @@ int caam_keygen_create(char *key_name, char *key_enc, char *key_mode,
 		printf("Failed to allocate memory for blob name.\n");
 		return ret;
 	}
-	printf("KEYBLOB_LOCATION=%s", KEYBLOB_LOCATION);
+	printf("KEYBLOB_LOCATION=%s\n", KEYBLOB_LOCATION);
 	/* blob_name = KEYBLOB_LOCATION/key_name.bb */
 	strcpy(blob_name, KEYBLOB_LOCATION);
 	strcpy(blob_name, key_name);
