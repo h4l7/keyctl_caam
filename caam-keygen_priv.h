@@ -22,7 +22,7 @@
 
 /* Default location for keys and blobs */
 #ifndef KEYBLOB_LOCATION
-#define KEYBLOB_LOCATION	"/keyring/caam/"
+#define KEYBLOB_LOCATION	"/boot/caam/"
 #endif
 
 /*
